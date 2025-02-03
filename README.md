@@ -13,6 +13,7 @@ yarn run server
 ## deploy using `gh-pages`
 
 ```
+yarn run export
 yarn run deploy
 ```
 
