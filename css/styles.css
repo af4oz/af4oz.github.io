@@ -1,6 +1,7 @@
 /* 
   1-9 copied from https://www.joshwcomeau.com/css/custom-css-reset/
-*/ /*
+*/
+/*
   1. Use a more-intuitive box-sizing model.
 */
 *,
@@ -8,12 +9,14 @@
 *::after {
   box-sizing: border-box;
 }
+
 /*
   2. Remove default margin
 */
 * {
   margin: 0;
 }
+
 /*
   3. Allow percentage-based heights in the application
 */
@@ -21,6 +24,7 @@ html,
 body {
   height: 100%;
 }
+
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -30,6 +34,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
 /*
   6. Improve media defaults
 */
@@ -41,6 +46,7 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 /*
   7. Remove built-in form typography styles
 */
@@ -50,6 +56,7 @@ textarea,
 select {
   font: inherit;
 }
+
 /*
   8. Avoid text overflows
 */
@@ -62,6 +69,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
 /*
   9. Create a root stacking context
 */
@@ -107,6 +115,12 @@ h6 {
   --light-shadow: 5px 7px 6px rgba(250, 251, 247, 0.6);
   --dark-shadow: 0 5px 20px rgba(17, 14, 14, 0.2);
 
+  /* For Project Item */
+  --box-shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-light-hover: 0 6px 10px rgba(0, 0, 0, 0.15);
+  --box-shadow-dark: 0 4px 6px rgba(255, 255, 255, 0.1);
+  --box-shadow-dark-hover: 0 6px 10px rgba(255, 255, 255, 0.15);
+
   --clr-elevation: 0, 0, 0;
   --elevation1: 6.7px 6.7px 1.1px rgba(var(--clr-elevation), 0.004),
     22.6px 22.3px 3.8px rgba(var(--clr-elevation), 0.006),
@@ -120,6 +134,7 @@ h6 {
 
   --radius: 0.25rem;
 }
+
 body.light {
   --clr-text: var(--clr-slate12);
   --clr-bg: white;
@@ -130,6 +145,7 @@ body.light {
   --inlineCode-text: var(--clr-gray12);
   --inlineCode-bg: hsla(var(--clr-sand11), 0.7);
 }
+
 body.dark {
   --clr-text: var(--clr-gray3);
   --clr-bg: var(--clr-slate12);
@@ -161,6 +177,7 @@ html {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
+
 html,
 body {
   width: 100%;
@@ -188,6 +205,7 @@ main {
 main:focus {
   outline: none;
 }
+
 .content-wrapper {
   max-height: 100%;
 }
@@ -211,6 +229,7 @@ ul {
 a {
   transition: color 0.2s ease;
 }
+
 a:not([class]) {
   text-decoration: none;
   transition-property: color;
@@ -239,19 +258,24 @@ a.active {
   text-decoration: underline;
   pointer-events: none;
 }
+
 a.not-active {
   text-decoration: none;
 }
+
 a.post__header {
   color: var(--clr-text);
   text-decoration: none;
 }
+
 a.post__header:hover {
   text-decoration: underline;
 }
+
 .collapse {
   transform: translateY(-100%) translateZ(0) !important;
 }
+
 .expand {
   transform: none;
 }
@@ -259,7 +283,7 @@ a.post__header:hover {
 /* Typography */
 
 /* Images */
-p > img {
+p>img {
   max-width: 100%;
   width: fit-content;
   margin: auto;

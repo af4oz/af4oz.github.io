@@ -10,7 +10,7 @@ export default {
   gitRepoName: `af4oz.github.io`, // will be used for utterances comments
   mail: `zkindest5@gmail.com`,
   redditUserName: ``,
-  twitterUserName: `af4oz`,
+  twitterUserName: ``,
   twitterId: ``,
   baseUrl: `http://af4oz.github.io`,
   image: `https://i.imgur.com/8PPjpAD.png`,

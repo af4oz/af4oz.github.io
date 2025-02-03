@@ -15,11 +15,11 @@ const Links: React.FC = () => {
           <a>/projects</a>
         </ActiveLink>
       </li>
-      <li>
+      {/* <li>
         <ActiveLink href="/articles/1" activeClassName="active">
           <a>/articles</a>
         </ActiveLink>
-      </li>
+      </li> */}
       <li>
         <ActiveLink href="/tags" activeClassName="active">
           <a>/tags</a>

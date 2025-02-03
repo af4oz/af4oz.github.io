@@ -1,46 +1,43 @@
-import ErrorBoundary from '@/components/ErrorBoundary';
-import Posts from '@/components/Posts';
 import SEO from '@/components/SEO';
-import { numPostsOnHome } from '@/constants/variables';
-import mdxUtil from '@/lib/mdx-util';
-import { MDXItem } from '@/lib/types';
-import { GetStaticProps } from 'next';
 import React from 'react';
-import styled from 'styled-components';
+import { mainProjects } from '@/projectData';
+import Project from '@/components/Projects/Project';
+import { ProjectsWrapper } from '@/components/Projects';
+import Link from 'next/link';
 
-type Props = {
-  posts: MDXItem[];
-};
-
-const IndexPage: React.FC<Props> = ({ posts }) => {
+const Projects = () => {
   return (
-    <React.Fragment>
-      <ErrorBoundary>
-        <SEO title="Afz" />
-        <BlogSection>
-          <h1>Blog</h1>
-          <Posts posts={posts} />
-        </BlogSection>
-      </ErrorBoundary>
-    </React.Fragment>
+    <div>
+      <SEO
+        title="Afroz's Projects"
+        description="I do side projects whenever I get free time, It helps me to improve/showcase my skills."
+        image="https://i.imgur.com/L8muD8v.jpg"
+        imageOwnerProfile="https://unsplash.com/@octadan"
+      />
+      <section>
+        <h1>Projects</h1>
+        <ProjectsWrapper>
+          {mainProjects.map((item) => (
+            <Project {...item} key={item.title} />
+          ))}
+        </ProjectsWrapper>
+
+        <h2>Other Projects</h2>
+        <ul>
+          <li>
+            <Link href="/projects/fec" scroll={true}>
+              <a>Frontend Mentor Challenges</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/projects/fcc" scroll={true}>
+              <a>FreeCodeCamp Frontend Challenges</a>
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </div>
   );
 };
-export const getStaticProps: GetStaticProps = async () => {
-  const posts = (await mdxUtil.getPosts()).slice(0, numPostsOnHome);
 
-  return {
-    props: {
-      posts,
-    },
-  };
-};
-export default IndexPage;
-
-const BlogSection = styled.section`
-  h1 {
-    color: var(--clr-show-text);
-    text-transform: uppercase;
-    text-align: left;
-    margin: 2rem 0;
-  }
-`;
+export default Projects;

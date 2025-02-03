@@ -14,6 +14,59 @@ export const mainProjects: IProject[] = [
     links: [
       {
         type: 'github',
+        url: 'https://github.com/af4oz/stack-underflow',
+      },
+      {
+        type: 'other',
+        url: 'https://codesandbox.io/p/github/af4oz/stack-underflow/main?embed=1'
+      }
+    ],
+    title: 'Stack Underflow',
+    description:
+      "An attempt at building Stackoverflow clone without a UI library, using prisma-orm and others.",
+    image: 'v1652195930/blog/stackunderflow_zzrakk.png',
+    imageAlt:
+      'Three sections in row with first one with Menu items,second with questions list and third with tags and their count.',
+  },
+  {
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/af4oz/shoppingify',
+      },
+      {
+        type: 'other',
+        url: 'https://codesandbox.io/p/github/af4oz/shoppingify/main?embed=1'
+      }
+    ],
+    title: 'Shoppingify',
+    description: 'Simple shopping list management with user authentication & purchase stats.',
+    image: 'v1650880389/blog/shoppingify_xtok6h.png',
+    imageAlt:
+      'A rectangular shape filled with blue squared tiles with controls at bottom.',
+  },
+  {
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/af4oz/suf-mern-gql-backend',
+      },
+      {
+        type: 'other',
+        url: 'https://codesandbox.io/p/github/af4oz/suf-mern-gql-backend?embed=1'
+      }
+    ],
+    title: 'Stack Underflow Old Backend (with Mongoose)',
+    description:
+      "An attempt at building a Backend for Stackoverflow clone using type-graphql, mongoose, and others.",
+    image: 'v1652195930/blog/stackunderflow_zzrakk.png',
+    imageAlt:
+      'Three sections in row with first one with Menu items,second with questions list and third with tags and their count.',
+  },
+  {
+    links: [
+      {
+        type: 'github',
         url: 'https://github.com/af4oz/react-game-of-life',
       },
       {
@@ -27,59 +80,19 @@ export const mainProjects: IProject[] = [
     imageAlt:
       'A rectangular shape filled with blue squared tiles with controls at bottom.',
   },
-  {
-    links: [
-      {
-        type: 'github',
-        url: 'https://github.com/af4oz/suf-mern-gql-frontend',
-      },
-    ],
-    title: 'Stack Underflow',
-    description:
-      "A web app basically similar to Stack Overflow using Next.js's SSR + CSR.",
-    image: 'v1652195930/blog/stackunderflow_zzrakk.png',
-    imageAlt:
-      'Three sections in row with first one with Menu items,second with questions list and third with tags and their count.',
-  },
-  {
-    links: [
-      {
-        type: 'github',
-        url: 'https://github.com/af4oz/shoppingify',
-      },
-    ],
-    title: 'Shoppingify',
-    description: 'Shopping list management with purchase stats using next.js.',
-    image: 'v1650880389/blog/shoppingify_xtok6h.png',
-    imageAlt:
-      'A rectangular shape filled with blue squared tiles with controls at bottom.',
-  },
-  {
-    links: [
-      {
-        type: 'github',
-        url: 'https://github.com/af4oz/dc-auth',
-      },
-    ],
-    title: 'Auths',
-    description:
-      'An app with various OAuth providers with out passport/similar lib.',
-    image: 'v1650882829/blog/auths_nohgxh.png',
-    imageAlt: 'A sign up form with blue and white color theme.',
-  },
-  {
-    links: [
-      {
-        type: 'github',
-        url: 'https://github.com/af4oz/starter-fullstack-graphql-rq',
-      },
-    ],
-    title: 'A Full stack Graphql,React starter',
-    description:
-      'It includes user authentication flow  based on JWT, refreshTokens and uses React, Graphql, Apollo server, Express, Nexus, React-query, jest, vite, vitest.',
-    image: 'v1650883643/blog/auths_sync_tab_ehtin4.png',
-    imageAlt: 'A login form with a dark green button',
-  },
+  // {
+  //   links: [
+  //     {
+  //       type: 'github',
+  //       url: 'https://github.com/af4oz/fs-gql-rq-frontend',
+  //     },
+  //   ],
+  //   title: 'Blogger site + User Authentication & Session Management',
+  //   description:
+  //     'It includes user authentication flow based on synchronizer-token-pattern (per session tokens) + fingerprint cookie(sameSite,secure,httpOnly) , tab synchronization using broadcast channel. ',
+  //   image: 'v1650882829/blog/auths_nohgxh.png',
+  //   imageAlt: 'A sign up form with blue and white color theme.',
+  // },
 ];
 
 export const frontEndMentorChallenges: IProject[] = [
