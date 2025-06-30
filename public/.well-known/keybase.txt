@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/afroz_mohammad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://af4oz.github.io
+  * I am afroz_mohammad (https://keybase.io/afroz_mohammad) on keybase.
+  * I have a public key with fingerprint 790B 24D0 6220 F775 A7EE  6CED 1860 98DE F84D 4212
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016bbca931263debf84854791fbeb2be813904584ad7aca1e294ebae2ef7826e810a",
+      "fingerprint": "790b24d06220f775a7ee6ced186098def84d4212",
+      "host": "keybase.io",
+      "key_id": "186098def84d4212",
+      "kid": "01016bbca931263debf84854791fbeb2be813904584ad7aca1e294ebae2ef7826e810a",
+      "uid": "b4176563aa27be9bed0722fc86c0c519",
+      "username": "afroz_mohammad"
+    },
+    "service": {
+      "hostname": "af4oz.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1751287783,
+  "expire_in": 157680000,
+  "prev": "0fac6ea35f87d136ea9e47749ab4f78e18fc330747d8069d22c13368ce8cd8c2",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUl1oHFUU3s0PbsMWLEhISYxm9EEkWWbu/Nw768aI2ZRoqtXaVKGu23vnnsmO
+6c5sZ2fXNCEPTVtskdCkJRbzIIVVUjAkFASlkTZVbCRtaakSsdBakYiVomBpaeqD
+3oltn3z0vtx7z/m+75zzccbWVkdi0fGnfzrZeHZZi569ziI59u7KkMQ8vktKDkn9
+sHrBDg7FINvvcCkpyYqsGIxZ1FQVZKgcmE00omvYVGwGDDEgimrKmk40yjG1qALI
+1IBRQGBjggyRl6nUKtmO2wd+wXfcQMhiU2ZI47KBkGxjrFMMYFjAFWLIJuEginAN
+KUgQc14xZIjmGC1CwvFETHyyq+39B/5/7ru0Ksc0BRu6oVKKMAOTAZcxQrZFDEu2
+dMUMgUXwXZoHgaa27w1m816O5vOUS8OtksiVHQtCe8N5HuA0bzDR5wS5Evt3sILv
+BZ7l7RDJXBAUismQHOwqhOh3gGXv6WSZ43JhqGCUwS86nislFYG0AicUVrCuIIIx
+UVslGCg4PmSdEKFjg8jihHWgLFFhk00tA6iq2wRzRRVPEzSMNZMyTdgACrEtVZWx
+hjmRDZMjZCmqahALiMWJFfpdhJ2uJyVFqYD2iTaLTp9Lg5IP0nDdgahaE4nGIo/W
+t9TYv/lfztaPfrTnhTUH7i9hbVW4gZG6NQ/fjyxXP/RXzdaxhaPa0M3p6+jm68d3
+9na9HE9Pzix+E90yEZ8/NhHNfvpU00zl8cyf7W1t5aruSZ02bu5MlzKXRxbwqfHL
+sY7bt+Z6Ot/zX63EPx777oZW/faVq6k786P8k6pDj50o+691TPVMtf+6jT3rXto8
+4pcqb+pHMlcW9TNH605cWzrUeyc1l9l48fmG7ifXpV/p+n70ieEW5xyKHbx7+pGm
++QH7s1jz/OTSepqeW9m36dvt7X/8nDY6P/+gdn/zeffH555ptqKpxYa35K1A4lcr
+Myf/Tvy+d3pfauXFrxI/HM4uH9m28FLdwdLXpf3vX9j04e69s6Xb9f3Thxt+mTm2
+9MaNa8MbBr74Bw==
+=piWi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/afroz_mohammad
+
+==================================================================
